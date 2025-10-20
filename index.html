@@ -117,6 +117,21 @@
       position: relative;
       z-index: 1;
     }
+    /* --- REVEAL / FADE-IN SUAVE --- */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 12px, 0);
+  transition: opacity .7s ease, transform .7s ease;
+  will-change: opacity, transform;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.reveal.h1 { transition-delay: .05s; }
+.reveal.card { transition-delay: .12s; }
+.reveal.block { transition-delay: .18s; }
+    
   </style>
 </head>
 <body>
@@ -264,8 +279,45 @@
       <div class="muted note">© <span id="y"></span> The Unspoken Ride · Privacy · Cookies · Terms</div>
     </div>
   </footer>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  const targets = [
+    '.hero .container > div:first-child',
+    '.hero .card',
+    'section h3',
+    '.feature', '.step',
+    '.gallery img',
+    'footer .brand'
+  ];
+
+  const nodes = [];
+  targets.forEach(sel => document.querySelectorAll(sel).forEach(el => {
+    el.classList.add('reveal');
+    if (el.matches('.hero .container > div:first-child, section h3')) el.classList.add('h1');
+    if (el.matches('.hero .card, .gallery img')) el.classList.add('card');
+    if (el.matches('.feature, .step')) el.classList.add('block');
+    nodes.push(el);
+  }));
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 });
+
+  nodes.forEach(n => io.observe(n));
+
+  if (!('IntersectionObserver' in window)) {
+    nodes.forEach(n => n.classList.add('visible'));
+  }
+</script>
 
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
+
 
