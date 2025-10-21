@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad – The Unspoken Ride</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{ --black:#000; --white:#fff; --violet:#A020F0; --lime:#00FF85; }
+    html,body{margin:0;padding:0;background:#000;color:#fff;font-family:Montserrat,system-ui,sans-serif;line-height:1.65}
+    .wrap{max-width:900px;margin:0 auto;padding:56px 20px}
+    h1{font-weight:900;letter-spacing:.5px;text-transform:uppercase;color:var(--violet);text-align:center;margin:0 0 8px}
+    .meta{opacity:.75;text-align:center;margin-bottom:32px}
+    h2{margin-top:28px;color:#ddd;font-weight:800}
+    p,li{color:#ddd}
+    .tag{display:inline-block;font-size:.8rem;border:1px solid rgba(255,255,255,.12);padding:2px 8px;border-radius:999px;margin-right:8px;opacity:.85}
+    a{color:var(--lime);text-decoration:none} a:hover{text-decoration:underline}
+    .footer{margin-top:48px;border-top:1px solid rgba(255,255,255,.08);padding-top:18px;font-size:.95rem;opacity:.75;text-align:center}
+    .brand{display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:8px}
+    .brand img{width:22px;height:22px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">
+      <img src="/images/logo.jpg" alt="The Unspoken Ride">
+      <strong>THE UNSPOKEN RIDE</strong>
+    </div>
+
+    <h1>Política de Privacidad</h1>
+    <div class="meta">
+      <span class="tag">Piloto Madrid</span>
+      <span class="tag">Última actualización: octubre 2025</span>
+    </div>
+
+    <p><strong>Responsable:</strong> Henry Luna Molina (en adelante, “The Unspoken Ride”).<br>
+    <strong>Correo:</strong> <a href="mailto:theunspokenride@gmail.com">theunspokenride@gmail.com</a> ·
+    <strong>Teléfono:</strong> <a href="https://wa.me/34634745956">+34 634 745 956</a><br>
+    <strong>Dominio web:</strong> se publicará cuando esté activo (actualmente alojado en Vercel).</p>
+
+    <h2>1. Identidad y datos de contacto del responsable</h2>
+    <p>Henry Luna Molina, Madrid (España). Correo: <a href="mailto:theunspokenride@gmail.com">theunspokenride@gmail.com</a>.</p>
+
+    <h2>2. Finalidad del tratamiento</h2>
+    <ul>
+      <li>Gestionar reservas y servicios piloto de conducción de retorno.</li>
+      <li>Contactar para confirmaciones, incidencias o atención al cliente.</li>
+      <li>Cumplir obligaciones legales y de seguridad vial.</li>
+      <li>Enviar comunicaciones informativas/comerciales (previo consentimiento).</li>
+    </ul>
+    <p>Sin decisiones automatizadas ni fines distintos a los descritos.</p>
+
+    <h2>3. Base jurídica</h2>
+    <ul>
+      <li>Ejecución de relación contractual o precontractual.</li>
+      <li>Cumplimiento de obligaciones legales.</li>
+      <li>Consentimiento expreso para finalidades adicionales.</li>
+    </ul>
+
+    <h2>4. Datos tratados</h2>
+    <ul>
+      <li>Identificación (nombre, apellidos, DNI).</li>
+      <li>Contacto (teléfono, email, dirección).</li>
+      <li>Datos de vehículo y localización del servicio.</li>
+      <li>Datos de facturación/pago (si aplica en fases posteriores).</li>
+    </ul>
+
+    <h2>5. Destinatarios</h2>
+    <p>No se ceden datos salvo a aseguradoras y proveedores tecnológicos necesarios (Google Workspace, WhatsApp Business, hosting) bajo garantías adecuadas, o por obligación legal.</p>
+
+    <h2>6. Conservación</h2>
+    <ul>
+      <li>Mientras dure la relación y el tiempo legal necesario.</li>
+      <li>Registros de consentimiento del formulario: hasta <strong>5 años</strong>.</li>
+      <li>Marketing: hasta revocación del consentimiento.</li>
+    </ul>
+
+    <h2>7. Derechos</h2>
+    <p>Acceso, rectificación, supresión, limitación, oposición y portabilidad; retirada del consentimiento escribiendo a <a href="mailto:theunspokenride@gmail.com">theunspokenride@gmail.com</a> (asunto “Protección de Datos – The Unspoken Ride”). Reclamación: AEPD.</p>
+
+    <h2>8. Medidas de seguridad</h2>
+    <ul>
+      <li>Acceso restringido con cuentas personales.</li>
+      <li>HTTPS/TLS y copias de seguridad.</li>
+      <li>Revisión periódica de permisos en formularios y hojas.</li>
+    </ul>
+
+    <h2>9. Enlaces y servicios de terceros</h2>
+    <p>El uso de Google Forms, WhatsApp y redes se rige por sus políticas de privacidad.</p>
+
+    <h2>10. Exoneración de responsabilidad</h2>
+    <p>Actuamos como intermediarios para asignar un conductor que traslada el vehículo al destino acordado. Tras la entrega:</p>
+    <ul>
+      <li>No asumimos responsabilidad por usos posteriores del vehículo.</li>
+      <li>El estado y seguro del vehículo corresponden al titular.</li>
+      <li>El usuario mantendrá indemne a The Unspoken Ride por reclamaciones derivadas de uso posterior, infracciones o daños no atribuibles a negligencia grave o dolo de The Unspoken Ride.</li>
+    </ul>
+    <p>Sin perjuicio de los derechos del consumidor conforme a la ley vigente.</p>
+
+    <h2>11. Actualizaciones</h2>
+    <p>Podremos modificar esta Política para adaptarla a cambios legales o técnicos. Se indicará la fecha de actualización.</p>
+
+    <div class="footer">
+      © 2025 Henry Luna Molina · The Unspoken Ride — Madrid, España ·
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </main>
+</body>
+</html>
